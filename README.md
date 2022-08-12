@@ -1,10 +1,13 @@
 # File manager
 correvate test file manager for upload and downloading zipped files
+
 Application will be running on port 9090
+
 Build your docker image using the command: docker build --tag=filemanager:latest .  
+
 Run your container using the command: docker run -p9090:9090 filemanager:latest
 
-Please name the steps you would consider when defining a SDLC for a SaaS application. Provide a brief description of what is covered by each step and the tools you’d use/setup to facilitate it.
+Question: Please name the steps you would consider when defining a SDLC for a SaaS application. Provide a brief description of what is covered by each step and the tools you’d use/setup to facilitate it.
 1. Planning: This step requires understanding the scope of the problem, user stories, resources, time and cost required to provide a solution.
 2. System Analysis and requirement: We consider the functional requirements(features) of the solution and analyse the need of the user. SDLC Methodologies(Agile Scrum, Waterfall, Kaban) for implementing the solution is also decided here. Documentation of the use cases is key. Notion, an online tool for documentation and collaboration is a good way of documenting and updating
 3. System Design: Design sessions are set up to discuss the architechtural specifications of the solution and the appropriate technology that satisify the proposed system. Choice of Database (NoSQL vs SQL), design patterns, cloud solutions vs on-premise. UML Diagrams such as class, sequence, activity diagrams are created to provide perspectie of the solutions, Figma can be used to create UI Mock ups and Business process tools such as bonita can be used to create a work flow. Jira for task monitoring
