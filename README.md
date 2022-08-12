@@ -1,8 +1,8 @@
-# filemanager
-correvate test file manager for upload and downloading files
-application will be running on port 9090
-build your docker image using the command: docker build --tag=filemanager:latest .  
-run your container using the command: docker run -p9090:9090 filemanager:latest
+# File manager
+correvate test file manager for upload and downloading zipped files
+Application will be running on port 9090
+Build your docker image using the command: docker build --tag=filemanager:latest .  
+Run your container using the command: docker run -p9090:9090 filemanager:latest
 
 Please name the steps you would consider when defining a SDLC for a SaaS application. Provide a brief description of what is covered by each step and the tools you’d use/setup to facilitate it.
 1. Planning: This step requires understanding the scope of the problem, user stories, resources, time and cost required to provide a solution.
